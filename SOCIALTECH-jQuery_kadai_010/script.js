@@ -56,7 +56,7 @@ $(function () {
   });
 
   // フォーカスが外れたとき（blur）にフォームの入力チェックをする
-  $('#prefecture').change(function () {
+  $('#prefecture').blur(function () {
     inputCheck();
   });
   $('#name').blur(function () {
